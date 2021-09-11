@@ -22,6 +22,7 @@ a{
     background-image: url(../images/poduct\ bg.png);
     background-size: cover;
     background-position: top left;
+    position: relative;
 }
 
 
@@ -168,6 +169,12 @@ nav ul li a:hover{
 
 
 
+
+
+
+
+
+
 .timing{
     position: absolute;
     left: 20%;
@@ -206,4 +213,62 @@ nav ul li a:hover{
 .office-number font{
     color: #5a76fd;
     font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.arrow{
+    align-self: end;
+   
+    width: 50%;
+    border-right: 1px solid #5a76fd;
+    height: 20%;
+    margin-bottom: 4em;
+    position: absolute;
+    bottom: 5px;
+    right: 70px ;
+    animation: arrow-animation ease 1.5s;
+}
+
+.arrow::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0px 11px;
+    border-color: #5a76fd transparent transparent transparent;
+    right: -0.7em;
+    bottom: -2px;
+}
+
+.scroll{
+    position: absolute;
+    bottom: 20px;
+    right: 55px;
+    font-weight: 600;
+}
+
+@keyframes arrow-animation{
+    0%{
+        bottom: 70px;
+        opacity: 0.2;
+    }
+
+    100%{
+        bottom: 5px;
+        opacity: 1;
+    }
 }
