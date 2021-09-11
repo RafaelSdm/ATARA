@@ -272,3 +272,58 @@ nav ul li a:hover{
         opacity: 1;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* services */
+
+.services{
+    background-image: url(../images/poduct\ bg.png);
+    background-size: 1000px;
+    background-position: center;
+}
+
+.services-heading{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.services-heading h2{
+    line-height: 55px;
+    font-size: 2.2rem;
+    color: #22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.services-heading p{
+    font-size: 1rem;
+    color: #777474;
+    width: 50%;
+}
