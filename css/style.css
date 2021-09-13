@@ -406,6 +406,7 @@ nav ul li a:hover{
     font-size: 0.9rem;
     color: #5a76fd;
     transition: ease 0.7s;
+    margin: 0px;
 
 }
 
@@ -618,4 +619,83 @@ nav .menu-btn{
         bottom: 40px;
     }
 
+}
+
+@media(max-width:720px){
+    .home-text p{
+        width: 70%;
+        text-align: center;
+    }
+
+    .office-number,
+    .office-time{
+        flex-grow: 1;
+        margin: 10px;
+    }
+
+    .office-number h3,
+    .office-time h3{
+        font-size: 1rem;
+
+    }
+
+    .office-time p,
+    .office-number p{
+        font-size: 0.8rem;
+       
+    }
+
+    .arrow, .scroll{
+        display: none;
+    }
+
+    .home-content h1{
+        font-size: 1.9rem;
+        padding: 10px 10px;
+        line-height: 30px;
+    }
+
+    .timing{
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px 20px;
+    }
+
+    .services-heading{
+        margin: 20px;
+
+    }
+
+    .services-heading h2{
+        font-size: 1.7rem;
+        line-height: 40px;
+
+    }
+
+    .services-heading p{
+        width: 100%;
+    }
+
+    .box{
+        width: 100%;
+        margin: 20px 0px !important;
+        padding: 0px 20px ;
+        flex-grow: 1;
+    }
+
+    .box img{
+        height: 100px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    footer p, a{
+        font-size: 00.9rem;
+        text-align: center;
+    }
+
+    footer{
+        padding:0px 10px ;
+    }
 }
